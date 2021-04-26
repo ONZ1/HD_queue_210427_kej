@@ -22,4 +22,6 @@ void main() {
 		}
 		else printf("%d\n", DeleteQueue());
 	}
+
+	fgetc(stdin);
 }
