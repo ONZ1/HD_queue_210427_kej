@@ -13,7 +13,7 @@ bool IsQueueEmpty() {
 
 //큐에 값을 저장하고 rear를 늘려주는 added_queue()함수
 void AddedQueue(int num) {
-	if (num > SIZE) {
+	if (rear > SIZE-1) {
 		printf("수용 한계 초과로 추가 불가\n");
 	}
 	else {
