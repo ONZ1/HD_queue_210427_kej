@@ -1,6 +1,5 @@
-#include <stdio.h>
-//큐의 사이즈는 10
-#define SIZE 10
+#include "queue.h"
+
 int front = -1;		//front 큐 첫번째에 위치한 값의 인덱스
 int rear = 0;		//rear 큐 마지막에 위치한 값의 인덱스
 
