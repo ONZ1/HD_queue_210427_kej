@@ -2,7 +2,6 @@
 #define __QUEUE_H__
 
 #include <stdio.h>
-#define SIZE 10		//큐의 사이즈는 10
 
 void AddedQueue(int num);
 int DeleteQueue();
